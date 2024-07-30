@@ -67,14 +67,12 @@ This repo includes an example project to demonstrate how to use VPV. To run the 
 
 Once the example project is running, you can explore the source code to see how the VPV component is integrated. Here is a brief overview:
 
-1. **Import the component**: Import the desired VPV component into your Vue file using `defineAsyncComponent`
+1. **Import the component**: Import the desired VPV component into your Vue
 
 ```html
 <script setup lang="ts">
-  import { VPdfViewer, useLicense } from '@vue-pdf-viewer/viewer';
+  import { VPdfViewer } from '@vue-pdf-viewer/viewer';
 
-  const licenseKey = import.meta.env.VITE_VPV_LICENSE ?? 'your-VPV-license-key';
-  useLicense({ licenseKey });
   const pdfFileSource =
     'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf';
 </script>
