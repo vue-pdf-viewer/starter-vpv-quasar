@@ -43,7 +43,7 @@ cd starter-vpv-quasar
    bun install
    ```
 
-_Remark: For `pnpm`, there is a bit more configuration required which can be found [here](https://docs.vue-pdf-viewer.dev/troubleshooting.html#_3-resolving-peer-dependency-version-mismatch-with-pnpm)._
+_Remark: For `pnpm`, there is a bit more configuration required which can be found (here)[]._
 
 ### Running the Example Project
 
@@ -67,7 +67,7 @@ This repo includes an example project to demonstrate how to use VPV. To run the 
 
 Once the example project is running, you can explore the source code to see how the VPV component is integrated. Here is a brief overview:
 
-1. **Import the component**: Import the desired VPV component into your Vue
+1. **Import the component**: Import the desired VPV component into your Vue file
 
 ```html
 <script setup lang="ts">
