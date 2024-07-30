@@ -1,6 +1,6 @@
-# VPV Starter Toolkit in Quasar + TypeScript
+# VPV Starter Toolkit in Quasar
 
-Welcome to the Vue PDF Viewer (VPV) starter toolkit! This repository provides a comprehensive guide on how to use VPV with Quasar with TypeScript. This repo showcases how VPV can be integrated and rendered as part of a Quasar project.
+Welcome to the Vue PDF Viewer (VPV) starter toolkit! This repository provides a comprehensive guide on how to use VPV with Quasar. This repo showcases how VPV can be integrated and rendered as part of a Quasar project.
 
 ## Table of Contents
 
