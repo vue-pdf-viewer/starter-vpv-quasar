@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
-    "@vue-pdf-viewer/viewer": "^3.0.0",
+    "@vue-pdf-viewer/annotation": "latest",
+    "@vue-pdf-viewer/viewer": "latest",
     "quasar": "^2.16.0",
     "vue": "3.5.20",
     "vue-router": "^4.0.12"

@@ -21,6 +21,12 @@
           <PdfViewer :src="pdfFileSource" />
         </div>
       </div>
+      <h2>Default Toolbar with Annotation</h2>
+      <div>
+        <div class="pdf-viewer-wrapper">
+          <PdfViewer :src="pdfFileSource" :annotate-enabled="true" />
+        </div>
+      </div>
     </PdfViewerLicense>
   </div>
 </template>
