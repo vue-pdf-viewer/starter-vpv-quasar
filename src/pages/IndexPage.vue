@@ -1,38 +1,35 @@
 <template>
   <div>
-    <PdfViewerLicense>
-      <h1>VPV Starter Toolkit: Quasar + TypeScript</h1>
-      <br />
-      <h2>Default Toolbar</h2>
-      <div>
-        <div class="pdf-viewer-wrapper">
-          <PdfViewer :src="pdfFileSource" />
-        </div>
+    <h1>VPV Starter Toolkit: Quasar + TypeScript</h1>
+    <br />
+    <h2>Default Toolbar</h2>
+    <div>
+      <div class="pdf-viewer-wrapper">
+        <PdfViewer :src="pdfFileSource" />
       </div>
-      <h2>Without Toolbar</h2>
-      <div>
-        <div class="pdf-viewer-wrapper no-toolbar">
-          <PdfViewer :src="pdfFileSource" :toolbar-options="toolbarOptions" />
-        </div>
+    </div>
+    <h2>Without Toolbar</h2>
+    <div>
+      <div class="pdf-viewer-wrapper no-toolbar">
+        <PdfViewer :src="pdfFileSource" :toolbar-options="toolbarOptions" />
       </div>
-      <h2>Mobile</h2>
-      <div>
-        <div class="pdf-viewer-wrapper-mobile">
-          <PdfViewer :src="pdfFileSource" />
-        </div>
+    </div>
+    <h2>Mobile</h2>
+    <div>
+      <div class="pdf-viewer-wrapper-mobile">
+        <PdfViewer :src="pdfFileSource" />
       </div>
-      <h2>Default Toolbar with Annotation</h2>
-      <div>
-        <div class="pdf-viewer-wrapper">
-          <PdfViewer :src="pdfFileSource" :annotate-enabled="true" />
-        </div>
+    </div>
+    <h2>Default Toolbar with Annotation</h2>
+    <div>
+      <div class="pdf-viewer-wrapper">
+        <PdfViewer :src="pdfFileSource" :annotate-enabled="true" />
       </div>
-    </PdfViewerLicense>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import PdfViewerLicense from '../components/PdfViewerLicense.vue';
 import PdfViewer from '../components/PdfViewer.vue';
 import type { ToolbarOptions } from '@vue-pdf-viewer/viewer';
 
